@@ -1,8 +1,9 @@
 body{
 	margin:0px;
+	font-family: "Lato" , sans-serif;
 }
 
-.comtainer{
+.container{
 	display:grid;
 	grid-templates-columns:1fr;
 }
@@ -47,6 +48,15 @@ body{
 
 .nav-link a:hover{
 	color:black;
+}
+
+.active-nav-link{
+	border-bottom: 1px solid black;
+	
+}
+
+.active-nav-link a{
+	color:black !important;
 }
 
 .portfolio-items{
@@ -107,6 +117,17 @@ body{
 }
 
 .img-darken{
-	transparent:1s;
+	transition:1s;
 	filter:brightness(10%);
+}
+
+.profile{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  
+  
+}
+
+.profile-img{
+	width: 100%
 }
