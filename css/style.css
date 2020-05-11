@@ -120,14 +120,32 @@ body{
 	transition:1s;
 	filter:brightness(10%);
 }
+.About{
+	display:flex;
+	flex-direction:column;
+	
+}
+.About-us{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+
 
 .profile{
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr;
+  padding-left:50px;
+  padding-top:10px;
+  
   
   
 }
+.profile-creator{
+	display: grid;
+  grid-template-columns:1fr 1fr;
+}
 
 .profile-img{
-	width: 100%
+	width: ;
+	padding:10px;
 }
