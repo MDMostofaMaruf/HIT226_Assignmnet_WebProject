@@ -108,7 +108,8 @@ body{
 .img-text .subtitle {
 	transition:1s;
 	font-weight:600;
-	color:transparent;
+	background:transparent;
+	color:white;
 }
 
 .img-text:hover .subtitle {
@@ -120,32 +121,58 @@ body{
 	transition:1s;
 	filter:brightness(10%);
 }
-.About{
-	display:flex;
-	flex-direction:column;
-	
-}
+
+
 .About-us{
 	display:grid;
-	grid-template-columns:1fr 1fr;
+	
+	grid-template-rows:1fr 1fr;
 }
 
+.About-img-background{
+	 background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+.background-img-text{
+	font:Arial,Helvetica,sans-serif;
+	font-size: 100px;
+	color: #ffffff;
+	text-align:center;
+
+	background: transparent;
+}
+  
+ 
+
+.About-us-text{
+	margin-top:100px;
+	float: center;
+	background:#273746 ;
+	
+	color: white;
+	width:100%;
+
+}
 
 .profile{
   display: grid;
   grid-template-rows:1fr;
   padding-left:50px;
   padding-top:10px;
-  
-  
-  
 }
-.profile-creator{
-	display: grid;
+.profiles{
+  display: grid;
   grid-template-columns:1fr 1fr;
+  padding:10px;
 }
 
 .profile-img{
-	width: ;
-	padding:10px;
+	width: 50%;
+	
+}
+.profile-content{
+	padding-left:10px;
 }
