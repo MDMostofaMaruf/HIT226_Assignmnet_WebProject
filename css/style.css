@@ -228,3 +228,16 @@ body{
   width: 100%;
 }
 
+.service-content{
+	position:absolute;
+	top:0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	padding-left:100px
+	padding-right:100px; 
+	color:white;
+	
+}
