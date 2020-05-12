@@ -9,6 +9,55 @@ body{
 	display:grid;
 	grid-templates-columns:1fr;
 }
+.head-img-background{
+	 background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+.head-content{
+	text-align:center;
+	height:100%;
+	padding-left:100px
+	padding-right:100px; 
+	color:white;
+	font-size:60px;
+	
+text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+		 animation:5s blinker linear infinite;
+    -webkit-animation:5s blinker linear infinite;
+    -moz-animation:5s blinker linear infinite;
+
+     color: white;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+	
+}
 
 
 .nav{
@@ -229,9 +278,9 @@ body{
   width: 100%;
 }
 
-.service-content{
-	position:absolute;
-	top:0;
+
+.event-content{
+	
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -240,5 +289,48 @@ body{
 	padding-left:100px
 	padding-right:100px; 
 	color:white;
+	font-size:30px;
 	
+text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	
+
+	
+}
+
+.service-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	padding-left:100px
+	padding-right:100px; 
+	color:white;
+	font-size:30px;
+	
+text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	
+}
+
+b {
+	font-size:50px;
+	text-align:center;
+	background-color:#000066;
+	color:white;
 }
