@@ -172,6 +172,7 @@ text-shadow:
 	font-weight:600;
 	background:transparent;
 	color:white;
+	font-size:20px;
 }
 
 .img-text:hover .subtitle {
@@ -333,4 +334,19 @@ b {
 	text-align:center;
 	background-color:#000066;
 	color:white;
+}
+
+.service-content:hover{
+	color:lightseagreen;
+}
+
+.event-content:hover{
+	color:lightseagreen;
+	
+}
+
+b:hover{
+	
+	color:blue;
+	
 }
