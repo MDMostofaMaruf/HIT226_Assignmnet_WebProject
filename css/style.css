@@ -1,3 +1,5 @@
+/*Home page */
+
 body{
 	margin:0px;
 	font-family: "Lato" , sans-serif;
@@ -15,6 +17,16 @@ body{
 	justify-content: space-between;
 	padding:38px;
 	
+}
+.right-side{
+	display:flex;
+	flex-direction:row;
+	top:0;
+	right:0;
+}
+.logoN img{
+	width:80px;
+	height:auto;
 }
 
 
@@ -68,6 +80,7 @@ body{
 .portfolio-item{
 	
 	position: relative;
+	padding:2px;
 }
 
 
@@ -96,7 +109,7 @@ body{
 
 	 
 .logo img {
-  width: 50%;
+  width: 20%;
   margin-bottom: 50px;
   padding-left:20px;
   background-color:transparent;
@@ -121,6 +134,8 @@ body{
 	transition:1s;
 	filter:brightness(10%);
 }
+
+/* About page Start */
 
 
 .About-us{
@@ -176,3 +191,40 @@ body{
 .profile-content{
 	padding-left:10px;
 }
+
+
+/*Event and service page */
+
+
+.services{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+.service{
+	padding:10px;
+}
+.service-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+ 
+
+.events{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	
+}
+.event{
+	padding:30px;
+}
+.event-img-background{
+	 background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
