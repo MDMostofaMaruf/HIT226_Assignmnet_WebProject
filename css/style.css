@@ -148,7 +148,7 @@ body{
 	 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
   width: 100%;
 }
 .background-img-text{
@@ -184,8 +184,9 @@ body{
   padding:10px;
 }
 
-.profile-img{
+.profile-img img{
 	width: 50%;
+	height: auto;
 	
 }
 .profile-content{
