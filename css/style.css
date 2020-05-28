@@ -359,7 +359,8 @@ b:hover{
 	display:flex;
 	flex-direction:column;
 	background-color:282E34;
-	width: 100%
+	width: 100%;
+	
 	
 	}
 	
@@ -470,6 +471,7 @@ height:25px;
 		background-color:38545f;
 		color:#fff;
 		font-size:15px;
+		text-align:center;
 		
 	}
 	
