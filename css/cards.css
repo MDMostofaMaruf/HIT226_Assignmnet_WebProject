@@ -157,7 +157,7 @@ body{
 	.footer a {
 		text-decoration:none;
 		transition:1s;
-		color:#fff;
+		color:#fffff;
 		font-size:15px;
 	}
 	
@@ -217,7 +217,7 @@ height:25px;
 	}
 	
 	.footer-items > .logoN  img {
-		width:30px;
+		width:31px;
 		height:auto;
 		
 	}
