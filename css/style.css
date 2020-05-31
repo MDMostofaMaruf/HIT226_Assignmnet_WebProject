@@ -210,6 +210,7 @@ text-shadow:
 	font-size: 100px;
 	color: #ffffff;
 	text-align:center;
+	text-position:middle;
 
 	background: transparent;
 }
