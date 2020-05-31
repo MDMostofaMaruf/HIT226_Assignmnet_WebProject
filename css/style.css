@@ -13,8 +13,9 @@ body{
 	 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 300px;
   width: 100%;
+  	 
 }
 .head-content{
 	text-align:center;
@@ -130,6 +131,9 @@ text-shadow:
 	
 	position: relative;
 	padding:2px;
+		 border-radius: 5px;
+  margin:10px;
+  box-shadow: 2px 2px 10px black;
 }
 
 
@@ -250,9 +254,16 @@ text-shadow:
 .services{
 	display:grid;
 	grid-template-columns:1fr 1fr;
+	 width:100%;
+
+ 
 }
 .service{
-	padding:10px;
+	padding:5px;
+	background-color:grey;
+	 border-radius: 5px;
+  margin:10px;
+  box-shadow: 2px 2px 10px black;
 }
 .service-img-background {
   background-size: cover;
@@ -260,16 +271,24 @@ text-shadow:
   background-repeat: no-repeat;
   height: 400px;
   width: 100%;
+   
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
  
 
 .events{
 	display: grid;
 	grid-template-columns:1fr 1fr;
+	width:100%;
 	
 }
 .event{
-	padding:30px;
+	padding:5px;
+	background-color:grey;
+	 border-radius: 5px;
+  margin:10px;
+  box-shadow: 2px 2px 10px black;
 }
 .event-img-background{
 	 background-size: cover;
@@ -277,6 +296,8 @@ text-shadow:
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
+   border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 
@@ -359,7 +380,8 @@ b:hover{
 	display:flex;
 	flex-direction:column;
 	background-color:282E34;
-	width: 100%
+	width: 100%;
+	
 	
 	}
 	
@@ -470,8 +492,12 @@ height:25px;
 		background-color:38545f;
 		color:#fff;
 		font-size:15px;
+		text-align:center;
 		
 	}
 	
+	
+	
+
 	
 	
